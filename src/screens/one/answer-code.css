@@ -1,0 +1,62 @@
+.answer-code-wrapper {
+    background-color: black;
+    padding: 2.5rem;
+    color: white;
+}
+
+.answer-code-wrapper h2 {
+    color: #0056b3;
+    padding-bottom: 1.5rem;
+}
+
+.answer-code-wrapper h5 {
+    color: azure;
+}
+
+.code {
+    color: rgb(168, 167, 167);
+}
+
+.check-button {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.check-button:hover {
+  background-color: #0056b3;
+}
+
+.check-button:active {
+    transform: scaleY(1) scale(1.1); 
+    color: white;
+}
+
+.result-text {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 12px;
+}
+.result-text span{
+    color: rgb(239, 147, 147);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.reason-text {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 12px;
+}
+.reason-text span{
+    color: rgb(239, 147, 147);
+    font-weight: 500;
+    font-size: 13px;
+}

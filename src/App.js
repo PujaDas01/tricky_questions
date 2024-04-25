@@ -1,9 +1,12 @@
 import React from "react";
+import './App.css';
+import AnswerCode from "./screens/one/AnswerCode";
 
 const App = () => {
   return(
-    <div>
-      <h2>Tricky JavaScript Questions</h2>
+    <div className="app-wrapper">
+      <h1>Tricky Questions</h1>
+      <AnswerCode />
     </div>
   )
 }
